@@ -3,7 +3,10 @@
 This project predicts laptop prices based on hardware and software specifications using machine learning pipelines. It covers the full data science workflow, from data cleaning to model deployment.
 
 📌 Project Overview
-The goal is to help users, retailers, and tech enthusiasts estimate the market value of laptops based on features like RAM, CPU, GPU, storage, screen type, and brand.
+**Goal**: Estimate laptop prices using structured features such as RAM, CPU/GPU brand, storage type, screen quality, and manufacturer.
+
+**Audience**: Tech buyers, retailers, and data science learners seeking price benchmarking and predictive modeling.
+
 
 
 1️⃣ Data Cleaning
@@ -29,6 +32,11 @@ The goal is to help users, retailers, and tech enthusiasts estimate the market v
 ### 5️⃣ Feature Selection
 - Selected features that have a strong correlation with price and reduce redundancy.
 - Used domain knowledge and correlation heatmaps to choose top predictors:
+- 
+```python
+cat_cols = ['Company', 'TypeName', 'Cpu Brand', 'Gpu Brand', 'OS']
+num_cols = ['Ram', 'Weight', 'Touchscreen', 'IPS', 'PPI', 'HDD', 'SSD']
+```
 
 6️⃣ Model Building with Data Pipelines
 
@@ -42,22 +50,23 @@ The goal is to help users, retailers, and tech enthusiasts estimate the market v
   Evaluated models using MSE, RMSE, and R² Score.
 
 7️⃣ Model Deployment
-- Saved the best-performing pipeline using pickle for future predictions:
-- Built a Streamlit web app to allow users to input laptop specs and get real-time price predictions.
+- Saved the best-performing pipeline using pickle for future predictions
+- Built a Streamlit web app for real-time price prediction based on user input
 
 Tech Stack:
-Python: Pandas, NumPy, Scikit-learn, XGBoost
-Visualization: Matplotlib, Seaborn
-Deployment: Streamlit
-Data Handling: Pickle
+- Programming: Python (Pandas, NumPy, Scikit-learn, XGBoost)
+- Visualization: Matplotlib, Seaborn
+- Deployment: Streamlit
+- Serialization: Pickle
 
 📊 Key Takeaways
-- RAM, CPU/GPU, storage type, and display quality are major drivers of laptop prices.
-- Pipeline-based workflows make preprocessing, training, and predictions seamless.
-- The deployed app allows real-world usage for estimating laptop prices effectively.
+- RAM, CPU/GPU, storage type, and display quality are major drivers of laptop prices
+- Pipeline-based workflows make preprocessing, training, and predictions
+- The deployed app enables real-world usage for estimating laptop prices effectively
 
 🚀 Future Enhancements
 - Integrate web scraping for real-time price updates
-- Deploy model via Flask or Streamlit for interactive use
-- Add explainability tools (e.g., SHAP)
+- Add SHAP or LIME for model interpretability
+- Extend app to include tablet and desktop price prediction
+- Deploy via cloud platforms (e.g., Heroku, Azure)
 
