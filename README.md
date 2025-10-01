@@ -26,7 +26,7 @@ This project predicts laptop prices based on hardware and software specification
 - Identified key features affecting laptop prices: RAM, CPU/GPU brand, SSD/HDD, PPI, Brand
 
 ### 4️⃣ Feature Engineering
-- Computed Pixels Per Inch (PPI) from screen resolution and size for representation
+- Computed Pixels Per Inch (PPI) from screen resolution and size 
 - Extracted CPU/GPU brand from full processor names
 - Created binary indicators for touchscreen and IPS display
 
@@ -41,7 +41,7 @@ num_cols = ['Ram', 'Weight', 'Touchscreen', 'IPS', 'PPI', 'HDD', 'SSD']
 
 6️⃣ Model Building with Data Pipelines
 
-- Built pipelines using ColumnTransformer for preprocessing and model training in one step.
+- Built pipelines using ColumnTransformer for preprocessing and model training in a single step.
   
   Models tested:
 - 1.Linear Regression
