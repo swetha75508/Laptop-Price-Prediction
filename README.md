@@ -29,7 +29,26 @@ The goal is to help users, retailers, and tech enthusiasts estimate the market v
 ### 5️⃣ Feature Selection
 - Selected features that have a strong correlation with price and reduce redundancy.
 - Used domain knowledge and correlation heatmaps to choose top predictors:
-'''python
-cat_cols = ['Company', 'TypeName', 'Cpu Brand', 'Gpu Brand', 'OS']
-num_cols = ['Ram', 'Weight', 'Touchscreen', 'IPS', 'PPI', 'HDD', 'SSD']
-'''
+
+6️⃣ Model Building with Data Pipelines
+Built pipelines using ColumnTransformer for preprocessing and model training in one step.
+Tested multiple models:
+1.Linear Regression
+2.Random Forest Regressor
+3.XGBoost Regressor
+Evaluated models using MSE, RMSE, and R² Score.
+
+7️⃣ Model Deployment
+- Saved the best-performing pipeline using pickle for future predictions:
+- Built a Streamlit web app to allow users to input laptop specs and get real-time price predictions.
+
+Tech Stack:
+Python: Pandas, NumPy, Scikit-learn, XGBoost
+Visualization: Matplotlib, Seaborn
+Deployment: Streamlit
+Data Handling: Pickle
+
+📊 Key Takeaways
+- RAM, CPU/GPU, storage type, and display quality are major drivers of laptop prices.
+- Pipeline-based workflows make preprocessing, training, and predictions seamless.
+- The deployed app allows real-world usage for estimating laptop prices effectively.
