@@ -32,13 +32,13 @@ The goal is to help users, retailers, and tech enthusiasts estimate the market v
 
 6️⃣ Model Building with Data Pipelines
 
-Built pipelines using ColumnTransformer for preprocessing and model training in one step.
-Tested multiple models:
+- Built pipelines using ColumnTransformer for preprocessing and model training in one step.
+  Tested multiple models:
 
-1.Linear Regression
-2.Random Forest Regressor
-3.XGBoost Regressor
-Evaluated models using MSE, RMSE, and R² Score.
+- 1.Linear Regression
+- 2.Random Forest Regressor
+- 3.XGBoost Regressor
+- Evaluated models using MSE, RMSE, and R² Score.
 
 7️⃣ Model Deployment
 - Saved the best-performing pipeline using pickle for future predictions:
