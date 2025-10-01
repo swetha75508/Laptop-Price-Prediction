@@ -31,6 +31,7 @@ The goal is to help users, retailers, and tech enthusiasts estimate the market v
 - Used domain knowledge and correlation heatmaps to choose top predictors:
 
 6️⃣ Model Building with Data Pipelines
+
 Built pipelines using ColumnTransformer for preprocessing and model training in one step.
 
 Tested multiple models:
