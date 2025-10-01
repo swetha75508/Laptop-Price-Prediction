@@ -38,6 +38,7 @@ The goal is to help users, retailers, and tech enthusiasts estimate the market v
 - 1.Linear Regression
 - 2.Random Forest Regressor
 - 3.XGBoost Regressor
+  
   Evaluated models using MSE, RMSE, and R² Score.
 
 7️⃣ Model Deployment
@@ -54,3 +55,9 @@ Data Handling: Pickle
 - RAM, CPU/GPU, storage type, and display quality are major drivers of laptop prices.
 - Pipeline-based workflows make preprocessing, training, and predictions seamless.
 - The deployed app allows real-world usage for estimating laptop prices effectively.
+
+🚀 Future Enhancements
+- Integrate web scraping for real-time price updates
+- Deploy model via Flask or Streamlit for interactive use
+- Add explainability tools (e.g., SHAP)
+
