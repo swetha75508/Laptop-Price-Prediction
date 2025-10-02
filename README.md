@@ -71,3 +71,13 @@ Tech Stack:
 - Extend app to include tablet and desktop price prediction
 - Deploy via cloud platforms (e.g., Heroku, Azure)
 
+
+peroject-structure/
+│── requirements.txt       
+│── README.md 
+│── data/  
+│     ├── dataset.csv
+├── notbook/
+│     ├── eda.ipynb
+│     ├── preprocessing.ipynb 
+│     ├── modeling.ipyn
