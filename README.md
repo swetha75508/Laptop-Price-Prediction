@@ -72,12 +72,4 @@ Tech Stack:
 - Deploy via cloud platforms (e.g., Heroku, Azure)
 
 
-peroject-structure/
-│── requirements.txt       
-│── README.md 
-│── data/  
-│     ├── dataset.csv
-├── notbook/
-│     ├── eda.ipynb
-│     ├── preprocessing.ipynb 
-│     ├── modeling.ipyn
+
