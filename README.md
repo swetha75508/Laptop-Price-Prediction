@@ -7,6 +7,7 @@ This project predicts laptop prices based on hardware and software specification
 **Goal**: Estimate laptop prices using structured features such as RAM, CPU/GPU brand, storage type, screen quality, and manufacturer.
 
 **Audience**: Tech buyers, retailers, and data science learners seeking price benchmarking and predictive modeling.
+
 ---
 
 
