@@ -3,15 +3,14 @@
 This project predicts laptop prices based on hardware and software specifications using machine learning pipelines. It covers the full data science workflow, from data cleaning to model deployment.
 
 📌 Project Overview
-
+---
 **Goal**: Estimate laptop prices using structured features such as RAM, CPU/GPU brand, storage type, screen quality, and manufacturer.
 
 **Audience**: Tech buyers, retailers, and data science learners seeking price benchmarking and predictive modeling.
 
----
-
 
 1️⃣ Data Cleaning
+---
 - Removed duplicates and handled missing values
 - Standardized inconsistent entries in `OS`, and `brand` names
 - Filtered out corrupted or irrelevant records
